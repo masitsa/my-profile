@@ -75,9 +75,7 @@
 	.introduction__name{float: left;}
 	.tabsNav__tabNavigation {padding-bottom: 2px;}
 }
-@media (max-width: 800px) {
-	.introduction__name{width: 100%;}
-}
+
 @media (min-width: 800px) {
 	.profileImage{margin-left:0;}
 	.introduction__name{margin-left:4rem; float: left;}
