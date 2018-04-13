@@ -72,6 +72,11 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	.introduction__name{width: 100%; float: left;}
+	.introduction__reviews {padding-bottom: 2rem; color:#007fe4;}
+	.tabsNav__tabNavigation {padding-bottom: 2px;}
+}
+@media (min-width: 800px) {
 	.profileImage{margin-left:0;}
 	.introduction__name{margin-left:4rem; float: left;}
 	.introduction__reviews {margin-top: 28px;}
