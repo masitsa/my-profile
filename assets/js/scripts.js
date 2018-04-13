@@ -104,7 +104,7 @@ $(function() {
 });
 
 /**** Tabs ****/
-$(document).on("click", "ul.tabsNav__tabNavigation li a",function(e)
+$(document).on("click", ".tabsNav__tabNavigation a",function(e)
 {
 	e.preventDefault();
 	var i, tabcontent, tablinks, current_tab;
@@ -132,7 +132,7 @@ $(document).on("click", "ul.tabsNav__tabNavigation li a",function(e)
 var popup = $('#popper_obj');
 var popper;
 
-$(document).on("click", ".profileList__item--button",function(e)
+$(document).on("click", ".profileList .profileList__item--button",function(e)
 {
 	e.preventDefault();
 	var pop_title = $(this).attr('data-title');
@@ -153,6 +153,25 @@ $(document).on("click", ".closePopover",function(e)
 {
 	$('.popover').css("display", "none");
 	popper.destroy();
+});
+
+/**** Edit profile ****/
+$(document).on("click", "#editProfile",function(e)
+{
+	e.preventDefault();
+	$(this).css("display", "none");
+	$('.editMobile.popover__body--actions').css("display", "block");
+	$('.profileList').css("display", "none");
+	$('.editMobile').show( "slow", function() {});
+});
+
+$(document).on("click", "#cancelEdit",function(e)
+{
+	e.preventDefault();
+	$('.editMobile.popover__body--actions').css("display", "none");
+	$('#editProfile').css("display", "block");
+	$('.editMobile').css("display", "none");
+	$('.profileList').show( "slow", function() {});
 });
 
 $(document).ready(function()

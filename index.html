@@ -33,13 +33,6 @@
                 <div class="profileImage">
                     <img src="assets/images/profile_image.jpg" class="profileImage__image" alt="Jessica Parker">
                 </div>
-                
-                <!-- Rating -->
-                <div class="introduction__reviews">
-                    <div class="float-right">
-                        <span id="stars-existing" class="starrr" data-rating='4'></span> 6 reviews
-                    </div>
-                </div>
                 <!-- Name -->
                 <div class="introduction__name">
                     <h2 class="introduction__name--title">Jessica Parker</h2>
@@ -48,32 +41,48 @@
                         <li><i class="icon ion-ios-telephone-outline"></i> (949) 325-68594</li>
                     </ul>
                 </div>
+                
+                <!-- Rating -->
+                <div class="introduction__reviews">
+                    <span id="stars-existing" class="starrr" data-rating='4'></span> 6 reviews
+                </div>
             </div>
         </section>
                  
         <!-- Profile body navigation --> 
         <div class="tabsNav">
-            <ul class="tabsNav__tabNavigation">
-                <li><a class="tabLinkNav active" href="#about">About</a></li>
-                <li><a class="tabLinkNav" href="#settings">Settings</a></li>
-                <li><a class="tabLinkNav" href="#option-1">Option 1</a></li>
-                <li><a class="tabLinkNav" href="#option-2">Option 2</a></li>
-                <li><a class="tabLinkNav" href="#option-3">Option 3</a></li>
-            </ul>
         	<div class="tabsNav_followers">
             	<i class="icon ion-ios-plus"></i> 15 Followers
+            </div>
+            <div class="tabsNav__tabNavigation">
+                <a class="tabLinkNav active" href="#about">About</a>
+                <a class="tabLinkNav" href="#settings">Settings</a>
+                <a class="tabLinkNav" href="#option-1">Option 1</a>
+                <a class="tabLinkNav" href="#option-2">Option 2</a>
+                <a class="tabLinkNav" href="#option-3">Option 3</a>
             </div>
         </div>
                 
         <!-- Profile body -->
-        <section class="profileBox" id="profile-body">
+        <section class="profileBody" id="profile-body">
         	    
             <div class="tabDescription">
             
                 <div id="about" class="tabDescription__content tabDescription__show">
+                	
+                    <div class="showMobile">
+                    	<button type="button" class="profileList__item--button" id="editProfile"><i class="icon ion-edit"></i></button>
+                    </div>
+                        
+                    <div class="editMobile popover__body--actions">
+                        <a href="#" class="editMobile__link">Save</a>
+                        <a href="#" class="editMobile__link" id="cancelEdit">Cancel</a>
+                    </div>
+                	
                     <h2>About</h2>
+                    
                     <div id="popper_obj" class="popover">
-                    	<div class="popover__arrow"></div>
+                        <div class="popover__arrow"></div>
                         <div class="popover__body">
                             <div class="popover__body--input">      
                               <input type="text" required name="name" id="popover__name">
@@ -91,24 +100,62 @@
                     <ul class="profileList">
                         <li class="profileList__item">
                             <button type="button" class="profileList__item--button" data-title="Name" data-value="Jessica Parker"><i class="icon ion-edit"></i></button>
-                        	<input type="text" value="Jessica Parker" class="profileList__item--input"/>
+                            <input type="text" value="Jessica Parker" class="profileList__item--input"/>
                         </li>
                         <li class="profileList__item">
                             <button type="button" class="profileList__item--button-light"><i class="icon ion-android-globe"></i></button>
                             <button type="button" class="profileList__item--button" data-title="Website" data-value="www.seller.com"><i class="icon ion-edit"></i></button>
-                        	<input type="text" value="www.seller.com" class="profileList__item--input"/>
+                            <input type="text" value="www.seller.com" class="profileList__item--input"/>
                         </li>
                         <li class="profileList__item">
                             <button type="button" class="profileList__item--button-light"><i class="icon ion-ios-telephone-outline"></i></button>
-                            <button type="button" class="profileList__item--button" data-title="Phone" data-value="(949) 325-68594"><i class="icon ion-edit"></i></button>
-                        	<input type="text" value="(949) 325-68594" class="profileList__item--input"/>
+                            <button type="button" class="profileList__item--button" data-title="Phone Number" data-value="(949) 325-68594"><i class="icon ion-edit"></i></button>
+                            <input type="text" value="(949) 325-68594" class="profileList__item--input"/>
                         </li>
                         <li class="profileList__item">
                             <button type="button" class="profileList__item--button-light"><i class="icon ion-ios-location-outline"></i></button>
                             <button type="button" class="profileList__item--button" data-title="City, State & Zip" data-value="Newport Beach, CA"><i class="icon ion-edit"></i></button>
-                        	<input type="text" value="Newport Beach, CA" class="profileList__item--input"/>
+                            <input type="text" value="Newport Beach, CA" class="profileList__item--input"/>
                         </li>
                     </ul>
+                    
+                    <div class="editMobile editMobile--Items">
+                        
+                    	<div class="popover__body--input">      
+                          <input type="text" required name="first_name" id="first_name" value="Jessica">
+                            <span class="popover__body--input-highlight"></span>
+                            <span class="popover__body--input-bar"></span>
+                          <label>First Name</label>
+                        </div>
+                        
+                    	<div class="popover__body--input">      
+                          <input type="text" required name="last_name" id="last_name" value="Parker">
+                            <span class="popover__body--input-highlight"></span>
+                            <span class="popover__body--input-bar"></span>
+                          <label>Last Name</label>
+                        </div>
+                        
+                    	<div class="popover__body--input">      
+                          <input type="text" required name="website" id="website" value="www.seller.com">
+                            <span class="popover__body--input-highlight"></span>
+                            <span class="popover__body--input-bar"></span>
+                          <label>Website</label>
+                        </div>
+                        
+                    	<div class="popover__body--input">      
+                          <input type="text" required name="phone" id="phone" value="(949) 325-68594">
+                            <span class="popover__body--input-highlight"></span>
+                            <span class="popover__body--input-bar"></span>
+                          <label>Phone Number</label>
+                        </div>
+                        
+                    	<div class="popover__body--input">      
+                          <input type="text" required name="city" id="city" value="Newport Beach, CA">
+                            <span class="popover__body--input-highlight"></span>
+                            <span class="popover__body--input-bar"></span>
+                          <label>City, State & Zip</label>
+                        </div>
+                    </div>
                 </div>
             
                 <div id="settings" class="tabDescription__content">

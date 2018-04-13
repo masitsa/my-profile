@@ -11,7 +11,7 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 .centralize{margin:0 auto; text-align:center;}
 
 /*** 4. Sections ***/
-.profileBox, .profile-navigation, .tabsNav{border-radius: 5px; border: 2px solid #ffffff; padding:2rem; background-color:#fff; box-shadow: 1px 2px #e0e4e7; margin-left:10%; margin-right:10%; clear:both; display:flex; flex-wrap:wrap;}
+.profileBox, .profile-navigation, .tabsNav, .profileBody{border-radius: 5px; border: 2px solid #ffffff; padding:2rem; background-color:#fff; box-shadow: 1px 2px #e0e4e7; margin-left:10%; margin-right:10%; clear:both; display:flex; flex-wrap:wrap;}
 .profileBox{margin-top: 50px;}
 
 	/** 4a. Profile Header **/
@@ -38,10 +38,9 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 	/** 4b. Profile Content **/
 .tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0; overflow: hidden;}
 .tabsNav_followers{float:right; margin-left:22%; display:block; padding: 1rem 0 1rem 1rem;}
-.tabsNav__tabNavigation { list-style: none; background-color:#ffffff; margin-left: 16%; margin-top:0; margin-bottom:0;}
-.tabsNav__tabNavigation li{ float:left;}
-.tabsNav__tabNavigation li a{ text-decoration:none; color: inherit; transition: 0.3s;display: block; padding: 1rem;}
-.tabsNav__tabNavigation li:hover, .active{border-bottom: 4px solid #007ee5;}
+.tabsNav__tabNavigation { list-style: none; background-color:#ffffff; margin-left: 16%; margin-top:0; margin-bottom:0; padding: 10px 0 10px 0;}
+.tabsNav__tabNavigation a{ text-decoration:none; color: inherit; transition: 0.3s; display: inline-block; padding: 1rem; text-align:center;}
+.tabsNav__tabNavigation a:hover, .active{border-bottom: 4px solid #007ee5;}
 .active:hover{border: none;}
 .tabDescription__show{display:block;}
 
@@ -57,7 +56,7 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 
 .profileList__item--button-light{border: 1px solid #fff; border-radius: .15rem; color: #717e87; background-color: #f6f7f9; border-color: #f6f7f9; float:left; width:13%;display: inline-block; font-size: 0.8rem; font-weight: bold; line-height: 1.5;padding: 0.6rem 1rem; text-align: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 
-.profileList__item input[type=text] {width:60%; padding:12px 20px; border:none; background-color:transparent;}
+.profileList__item input[type=text] {width:58%; padding:12px 20px; border:none; background-color:transparent;}
 
 .popover{position: absolute;margin-left: .5rem; border: 1px solid #fff; border-radius: .3rem;border:none; -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */ -moz-box-shadow: 3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */ box-shadow: 3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */}
 .popover__arrow {width: 0;height: 0;border-style: solid;position: absolute;margin: 5px;}
@@ -71,7 +70,7 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 .popper[x-placement^="left"] .popper__arrow {border-width: .5rem 0 .5rem .5rem;border-color: transparent transparent transparent #ffffff;right: -5px;top: calc(50% - 5px);margin-left: 0;margin-right: 0;}
 
 .popover__body{padding: 3rem .75rem;}
-.popover__body--input{position:relative; margin-bottom:10px; }
+.popover__body--input{position:relative; margin-bottom:40px; }
 .popover__body--input input{ font-size:18px; padding:10px 10px 10px 5px; display:block; width:300px; border:none; border-bottom:1px solid #757575;}
 .popover__body--input input:focus { outline:none; }
 .popover__body--input label { color: #b2bcc6; font-size: 0.9rem; text-transform:uppercase; font-weight:normal; position:absolute; pointer-events:none; left:5px; top:10px; transition:0.2s ease all;  -moz-transition:0.2s ease all;  -webkit-transition:0.2s ease all;}
@@ -97,5 +96,7 @@ input:focus ~ .popover__body--input-highlight { -webkit-animation:inputHighlight
 }
 .popover__body--actions {margin:1rem 0;}
 .popover__body--actions button{margin-right:20px;}
+.showMobile, .editMobile{display:none;}
+.editMobile__link{text-decoration:none; color:#018dfe; margin-left:10px;}
 
 /*.bs-popover-auto[x-placement^="right"] .arrow::before, .bs-popover-right .arrow::before {left: 0;}*/

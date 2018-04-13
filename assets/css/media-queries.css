@@ -1,10 +1,42 @@
 /* Small devices (portrait phones, 320px and up) */
 @media (min-width: 320px) {
-		
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+/* Small devices (portrait & landscape phones, 576px and up) */
+@media (max-width: 736px) {
+	
+	.button{padding:0; min-width: 1rem;}
+	.button--background-none {border:none !important;}
+	body{margin:0;}	
+	.profileBox {margin:0 8% 0 8%; padding: 0; background-color:#F4F8F9; border:none; box-shadow:none;}
+	.coverImageButton{display:none;}
+	.introduction {padding-left: 0; width: 100%; margin-top: 10px;}
+	.profileImage{position:static; margin-left: 4rem; background-color:#F4F8F9;}
+	.profileImage__image{left: -1%;}
+	.introduction__name--title {margin:0 auto; text-align:center;}
+	.introduction__name--description{transform: rotate(180deg);}
+	.introduction__name--description li{transform: rotate(180deg);}
+	.introduction__reviews{float:left;}
+	.starrr{display:block; color:#007fe4;}
+	.tabsNav{margin:0; padding:0; /*border-top: 1px solid #e0e4e7;*/ border:none; box-shadow:none; margin-bottom:10px;}
+	.tabsNav_followers{padding:20px 8% 20px 8%;float:left; margin:0; background-color:#F4F8F9; width:100%; border-left:none; border-bottom: 1px solid #e0e4e7;}
+	.tabsNav_followers i{color:#a7b0b7;}
+	.tabsNav__tabNavigation{margin-left:0; padding-left: 8%; overflow: auto; white-space: nowrap; border-bottom: 1px solid #e0e4e7;}
+	.tabsNav__tabNavigation a{padding: .5rem;}
+	.profileBody{margin:0; border-top: 1px solid #e0e4e7; border-radius:0; box-shadow:none; padding:10px 8% 10px 8%;}
+	.tabDescription__content h2{color:#707e89; margin:10px 0 10px 0; font-size:1.5rem;}
+	.showMobile{display:block;}
+	.profileList{margin-top: 0;}
+	.profileList__item--button{padding: 0.4rem 0rem 0.4rem 0.6rem;}
+	.profileList .profileList__item--button{display:none;}
+	.profileList li { background-color: #ffffff;}
+	.profileList li:first-child input{ font-size:1.5rem;}
+	.profileList__item--button-light{background-color: #ffffff; border:none;}
+	.popover__body--actions{float:right; margin: 10px;}
+	.editMobile--Items{margin-top:40px;}
+	.tabDescription, .popover__body--input input, .popover__body--input-bar{width:100%;}
+	.popover__body--input input{font-size: 15px; padding: 0;}
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
