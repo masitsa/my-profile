@@ -78,7 +78,7 @@
 
 @media (min-width: 800px) {
 	.profileImage{margin-left:0;}
-	.introduction__name{margin-left:4rem; float: left;}
+	.introduction__name{margin-left:1rem; float: left;}
 	.introduction__reviews {margin-top: 28px;}
 	.tabsNav__tabNavigation a {padding: .5rem;}
 	.introduction__reviews {color:inherit;}
