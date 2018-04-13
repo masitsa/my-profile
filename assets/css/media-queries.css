@@ -81,9 +81,9 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	.profileImage { margin-left: 0;}
-	.profileImage__image {left: -5.8rem;}
+@media (min-width: 800px) {
+	.profileImage { margin-left: -2rem;}
+	.profileImage__image {left: -4rem;}
 	.introduction__name{margin-left:4rem; float: left;}
 	.introduction__reviews {margin-top: 28px;}
 	.tabsNav__tabNavigation a {padding: .5rem;}
