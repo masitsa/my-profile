@@ -39,6 +39,16 @@
 	.profileImage {margin-left: 4rem;}
 	.profileImage__image { left: -0.1rem;}
 }
+/* Small devices (portrait phones, 375px and up) */
+@media (min-width: 375px) {
+	.profileImage {margin-left: 4rem;}
+	.profileImage__image { left: 0rem;}
+}
+/* Small devices (portrait phones, 414px and up) */
+@media (min-width: 414px) {
+	.profileImage {margin-left: 5rem;}
+	.profileImage__image { left: 1.1rem;}
+}
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px) {
 	.profileImage {margin-left: 7rem;}
