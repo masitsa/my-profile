@@ -1,5 +1,5 @@
-/* Small devices (portrait phones, 320px and up) */
-@media (min-width: 320px) {
+/* Mobile Styles */
+@media (max-width: 768px) {
 	.button{padding:0; min-width: 1rem;}
 	.button--background-none {border:none !important;}
 	body{margin:0;}	
@@ -78,10 +78,6 @@
 @media (min-width: 736px) {
 	.profileImage {margin-left: 13.5rem;}
 	.profileImage__image { left: 11.3rem;}
-}
-
-/* Small devices (portrait & landscape phones, 576px and up) */
-@media (min-width: 320px) {
 }
 
 /* Medium devices (tablets, 768px and up) */
