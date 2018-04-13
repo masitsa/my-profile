@@ -12,7 +12,7 @@
 	.coverImageButton{display:none;}
 	.introduction {padding-left: 0; width: 100%; margin-top: 10px;}
 	.profileImage{position:static; margin-left: 4rem; background-color:#F4F8F9;}
-	.profileImage__image{left: -1%;}
+	.profileImage__image{left: -1px;}
 	.introduction__name--title {margin:0 auto; text-align:center;}
 	.introduction__name--description{transform: rotate(180deg);}
 	.introduction__name--description li{transform: rotate(180deg);}
