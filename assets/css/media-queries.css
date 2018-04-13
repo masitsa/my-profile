@@ -95,6 +95,7 @@
 /* Extra large devices (large desktops, 1024px and up) */
 @media (min-width: 1024px) {
 	.tabsNav_followers {display:block;}
+	.introduction__name {margin-left: 2rem;}
 }
 @media (min-width: 1280px) {
 	.introduction__name {margin-left: 0rem;}
