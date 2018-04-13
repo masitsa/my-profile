@@ -105,3 +105,19 @@
 	.tabsNav_followers {right: 11rem;}
 	.tabsNav__tabNavigation {margin-left: 12.4rem;}
 }
+@media (min-width: 1440px) {
+	.tabsNav_followers {right: 11.5rem;}
+	.tabsNav__tabNavigation {margin-left: 13.4rem;}
+}
+@media (min-width: 1600px) {
+	.tabsNav_followers {right: 12.5rem;}
+	.tabsNav__tabNavigation {margin-left: 15rem;}
+}
+@media (min-width: 1680px) {
+	.tabsNav_followers {right: 13rem;}
+	.tabsNav__tabNavigation {margin-left: 15.8rem;}
+}
+@media (min-width: 1920px) {
+	.tabsNav_followers {right: 14.5rem;}
+	.tabsNav__tabNavigation {margin-left: 18em;}
+}
