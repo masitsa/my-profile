@@ -74,6 +74,9 @@
 @media (min-width: 768px) {
 	.introduction__name{float: left;}
 	.tabsNav__tabNavigation {padding-bottom: 2px;}
+}
+
+@media (max-width: 768px) {
 	.introduction__reviews {clear: both;}
 }
 
