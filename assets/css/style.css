@@ -21,10 +21,10 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 .coverImageButton__grey{color: #97a0a9; border-color: #97a0a9;}
 .icon{padding-right:10px;}
 
-.profileImage{position: absolute; left: 13%;width:167px; height:176px;-webkit-box-shadow: 3px 3px 5px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */ -moz-box-shadow: 3px 3px 5px 3px #ccc;  /* Firefox 3.5 - 3.6 */ box-shadow: 3px 3px 5px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ float:left;}
-.profileImage__image{clip-path: inset(0 39px 73px 93px);position: absolute; left:-56%;}
+.profileImage{width:167px; height:176px;-webkit-box-shadow: 3px 3px 5px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */ -moz-box-shadow: 3px 3px 5px 3px #ccc;  /* Firefox 3.5 - 3.6 */ box-shadow: 3px 3px 5px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ float:left;z-index: 12222222; position: relative;}
+/*.profileImage__image{clip-path: inset(0 39px 73px 93px);position: absolute; left:-56%;}*/
 
-.introduction{padding-left:20%; width:80%;}
+.introduction{width:100%;}
 .introduction__reviews{float:right;}
 .introduction__name--title{margin-bottom:0px !important;}
 .introduction__name--description {margin-top:5px; padding-left: 0; list-style: none;}
@@ -36,7 +36,8 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 }
 
 	/** 4b. Profile Content **/
-.tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0; overflow: hidden; margin-bottom: 2rem;}
+.tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0;  margin-bottom: 2rem; position: relative; top: -2rem;overflow: hidden;}
+
 .tabsNav_followers {display: none; position: absolute; right: 8.5rem; margin-top: 15px;}
 .tabsNav__tabNavigation { overflow: auto; white-space: nowrap; list-style: none; background-color:#ffffff; margin-left: 11rem; margin-top:0; margin-bottom:0; padding: 10px 0 0 0;}
 .tabsNav__tabNavigation a{ text-decoration:none; color: inherit; transition: 0.3s; display: inline-block; padding: 1rem; text-align:center;}
@@ -99,5 +100,3 @@ input:focus ~ .popover__body--input-highlight { -webkit-animation:inputHighlight
 .popover__body--actions button{margin-right:20px;}
 .showMobile, .editMobile{display:none;}
 .editMobile__link{text-decoration:none; color:#018dfe; margin-left:10px;}
-
-/*.bs-popover-auto[x-placement^="right"] .arrow::before, .bs-popover-right .arrow::before {left: 0;}*/

@@ -6,8 +6,7 @@
 	.profileBox {margin:0 8% 0 8%; padding: 0; background-color:#F4F8F9; border:none; box-shadow:none;}
 	.coverImageButton{display:none;}
 	.introduction {padding-left: 0; width: 100%; margin-top: 10px;}
-	.profileImage{position:static; margin-left: 3rem; background-color:#F4F8F9;}
-	.profileImage__image{left: -1.4rem;}
+	.profileImage{background-color:#F4F8F9;}
 	.introduction__name{clear:both;}
 	.introduction__name--title {margin:0 auto; text-align:center;}
 	.introduction__name--description{transform: rotate(180deg);}
@@ -17,7 +16,7 @@
 	.tabsNav{margin:0; padding:0; margin-top: 10px; border:none; box-shadow:none; margin-bottom:10px;}
 	.tabsNav_followers{padding:20px 8% 20px 8%;float:left; margin:0; background-color:#F4F8F9; width:100%; border-left:none; border-bottom: 1px solid #e0e4e7;}
 	.tabsNav_followers i{color:#a7b0b7;}
-	.tabsNav__tabNavigation{margin-left:0; padding-left: 8%; border-bottom: 1px solid #e0e4e7;}
+	.tabsNav__tabNavigation{margin-left:0; padding-left: 8%; border-bottom: 1px solid #e0e4e7; padding-bottom: 10px;}
 	.tabsNav__tabNavigation a{padding: .5rem;}
 	.profileBody{margin:0; border-top: 1px solid #e0e4e7; border-radius:0; box-shadow:none; padding:10px 8% 10px 8%;}
 	.tabDescription__content h2{color:#707e89; margin:10px 0 10px 0; font-size:1.5rem;}
@@ -36,54 +35,34 @@
 }
 /* Small devices (portrait phones, 360px and up) */
 @media (min-width: 360px) {
-	.profileImage {margin-left: 4rem;}
-	.profileImage__image { left: -0.1rem;}
 }
 /* Small devices (portrait phones, 375px and up) */
 @media (min-width: 375px) {
-	.profileImage {margin-left: 4rem;}
-	.profileImage__image { left: 0rem;}
 }
 /* Small devices (portrait phones, 414px and up) */
 @media (min-width: 414px) {
-	.profileImage {margin-left: 5rem;}
-	.profileImage__image { left: 1.1rem;}
 }
 /* Small devices (landscape phones, 480px and up) */
 @media (min-width: 480px) {
-	.profileImage {margin-left: 7rem;}
-	.profileImage__image { left: 3.5rem;}
 }
 /* Small devices (landscape phones, 533px and up) */
 @media (min-width: 533px) {
-	.profileImage {margin-left: 8.3rem;}
-	.profileImage__image { left: 5rem;}
 }
 /* Small devices (landscape phones, 568px and up) */
 @media (min-width: 568px) {
-	.profileImage {margin-left: 9.1rem;}
-	.profileImage__image { left: 6rem;}
 }
 /* Small devices (landscape phones, 640px and up) */
 @media (min-width: 640px) {
-	.profileImage {margin-left: 11.1rem;}
-	.profileImage__image { left: 8.3rem;}
 }
 /* Small devices (landscape phones, 667px and up) */
 @media (min-width: 667px) {
-	.profileImage {margin-left: 12rem;}
-	.profileImage__image { left: 9.3rem;}
 }
 /* Small devices (landscape phones, 736px and up) */
 @media (min-width: 736px) {
-	.profileImage {margin-left: 13.5rem;}
-	.profileImage__image { left: 11.3rem;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.profileImage { margin-left: 0;}
-	.profileImage__image {left: -5.8rem;}
 	.introduction__name{margin-left:4rem; float: left;}
 	.introduction__reviews {margin-top: 28px;}
 	.tabsNav__tabNavigation a {padding: .5rem;}
@@ -98,27 +77,21 @@
 	.introduction__name {margin-left: 2rem;}
 }
 @media (min-width: 1280px) {
-	.introduction__name {margin-left: 0rem;}
-	.tabsNav_followers {right: 10.5rem;}
+	.tabsNav_followers {right: 2rem;}
 	.tabsNav__tabNavigation {margin-left: 11.5rem;}
 }
 @media (min-width: 1366px) {
-	.tabsNav_followers {right: 11rem;}
 	.tabsNav__tabNavigation {margin-left: 12.4rem;}
 }
 @media (min-width: 1440px) {
-	.tabsNav_followers {right: 11.5rem;}
 	.tabsNav__tabNavigation {margin-left: 13.4rem;}
 }
 @media (min-width: 1600px) {
-	.tabsNav_followers {right: 12.5rem;}
 	.tabsNav__tabNavigation {margin-left: 15rem;}
 }
 @media (min-width: 1680px) {
-	.tabsNav_followers {right: 13rem;}
 	.tabsNav__tabNavigation {margin-left: 15.8rem;}
 }
 @media (min-width: 1920px) {
-	.tabsNav_followers {right: 14.5rem;}
 	.tabsNav__tabNavigation {margin-left: 18em;}
 }
