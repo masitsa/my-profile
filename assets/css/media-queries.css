@@ -11,7 +11,7 @@
 	.introduction__name--title {margin:0 auto; text-align:center;}
 	.introduction__name--description{transform: rotate(180deg);}
 	.introduction__name--description li{transform: rotate(180deg);}
-	.introduction__reviews{float:left;}
+	.introduction__reviews{float:left;padding-bottom: 2rem; color:#007fe4;}
 	.starrr{display:block; color:#007fe4;}
 	.tabsNav{margin:0; padding:0; margin-top: 10px; border:none; box-shadow:none; margin-bottom:10px;}
 	.tabsNav_followers{padding:20px 8% 20px 8%;float:left; margin:0; background-color:#F4F8F9; width:100%; border-left:none; border-bottom: 1px solid #e0e4e7;}
@@ -73,7 +73,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.introduction__name{float: left;}
-	.introduction__reviews {padding-bottom: 2rem; color:#007fe4;}
 	.tabsNav__tabNavigation {padding-bottom: 2px;}
 }
 @media (max-width: 800px) {
