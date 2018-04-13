@@ -36,9 +36,9 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 }
 
 	/** 4b. Profile Content **/
-.tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0; overflow: hidden;}
-.tabsNav_followers{float:right; margin-left:22%; display:block; padding: 1rem 0 1rem 1rem;}
-.tabsNav__tabNavigation { list-style: none; background-color:#ffffff; margin-left: 16%; margin-top:0; margin-bottom:0; padding: 10px 0 10px 0;}
+.tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0; overflow: hidden; margin-bottom: 2rem;}
+.tabsNav_followers {display: none; position: absolute; right: 8.5rem; margin-top: 15px;}
+.tabsNav__tabNavigation { overflow: auto; white-space: nowrap; list-style: none; background-color:#ffffff; margin-left: 11rem; margin-top:0; margin-bottom:0; padding: 10px 0 0 0;}
 .tabsNav__tabNavigation a{ text-decoration:none; color: inherit; transition: 0.3s; display: inline-block; padding: 1rem; text-align:center;}
 .tabsNav__tabNavigation a:hover, .active{border-bottom: 4px solid #007ee5;}
 .active:hover{border: none;}
@@ -53,6 +53,7 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 .profileList li .btn-gray-light{float:left;}
 
 .profileList__item--button{border: 1px solid #fff; border-radius: .15rem; color: #717e87; background-color: #ecf1f5; border-color: #ecf1f5; float:right; width:13%;display: inline-block; font-size: 0.8rem; font-weight: bold; line-height: 1.5;padding: 0.6rem 1rem; text-align: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor:pointer;}
+.profileList__item--button:hover{background-color:#018dfe; color:#ffffff;}
 
 .profileList__item--button-light{border: 1px solid #fff; border-radius: .15rem; color: #717e87; background-color: #f6f7f9; border-color: #f6f7f9; float:left; width:13%;display: inline-block; font-size: 0.8rem; font-weight: bold; line-height: 1.5;padding: 0.6rem 1rem; text-align: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 
