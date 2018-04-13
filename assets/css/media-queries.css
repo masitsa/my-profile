@@ -1,3 +1,8 @@
+/* Small devices (portrait phones, 320px and up) */
+@media (min-width: 320px) {
+		
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 

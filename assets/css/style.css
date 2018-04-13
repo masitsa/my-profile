@@ -37,7 +37,8 @@ h, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 
 	/** 4b. Profile Content **/
 .tabsNav {border-top: 1px solid #e0e4e7; padding-top:0; padding-bottom:0; overflow: hidden;}
-.tabsNav__tabNavigation { list-style: none; width:100%; background-color:#ffffff; margin-left: 15%; margin-top:0; margin-bottom:0;}
+.tabsNav_followers{float:right; margin-left:22%; display:block; padding: 1rem 0 1rem 1rem;}
+.tabsNav__tabNavigation { list-style: none; background-color:#ffffff; margin-left: 16%; margin-top:0; margin-bottom:0;}
 .tabsNav__tabNavigation li{ float:left;}
 .tabsNav__tabNavigation li a{ text-decoration:none; color: inherit; transition: 0.3s;display: block; padding: 1rem;}
 .tabsNav__tabNavigation li:hover, .active{border-bottom: 4px solid #007ee5;}
