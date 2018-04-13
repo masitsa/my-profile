@@ -1,5 +1,12 @@
 /* Small devices (portrait phones, 320px and up) */
 @media (min-width: 320px) {
+	.profileImage {margin-left: 3rem;}
+	.profileImage__image { left: -1.4rem;}
+}
+/* Small devices (portrait phones, 360px and up) */
+@media (min-width: 360px) {
+	.profileImage {margin-left: 4rem;}
+	.profileImage__image { left: -0.1rem;;}
 }
 
 /* Small devices (portrait & landscape phones, 576px and up) */
@@ -13,6 +20,7 @@
 	.introduction {padding-left: 0; width: 100%; margin-top: 10px;}
 	.profileImage{position:static; margin-left: 4rem; background-color:#F4F8F9;}
 	.profileImage__image{left: -1px;}
+	.introduction__name{clear:both;}
 	.introduction__name--title {margin:0 auto; text-align:center;}
 	.introduction__name--description{transform: rotate(180deg);}
 	.introduction__name--description li{transform: rotate(180deg);}
@@ -36,6 +44,7 @@
 	.editMobile--Items{margin-top:40px;}
 	.tabDescription, .popover__body--input input, .popover__body--input-bar{width:100%;}
 	.popover__body--input input{font-size: 15px; padding: 0;}
+	.introduction__name{display:block; clear: both;}
 }
 
 /* Medium devices (tablets, 768px and up) */
