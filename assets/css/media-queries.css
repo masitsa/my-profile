@@ -6,7 +6,37 @@
 /* Small devices (portrait phones, 360px and up) */
 @media (min-width: 360px) {
 	.profileImage {margin-left: 4rem;}
-	.profileImage__image { left: -0.1rem;;}
+	.profileImage__image { left: -0.1rem;}
+}
+/* Small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+	.profileImage {margin-left: 7rem;}
+	.profileImage__image { left: 3.5rem;}
+}
+/* Small devices (landscape phones, 533px and up) */
+@media (min-width: 533px) {
+	.profileImage {margin-left: 8.3rem;}
+	.profileImage__image { left: 5rem;}
+}
+/* Small devices (landscape phones, 568px and up) */
+@media (min-width: 568px) {
+	.profileImage {margin-left: 9.1rem;}
+	.profileImage__image { left: 6rem;}
+}
+/* Small devices (landscape phones, 640px and up) */
+@media (min-width: 640px) {
+	.profileImage {margin-left: 11.1rem;}
+	.profileImage__image { left: 8.3rem;}
+}
+/* Small devices (landscape phones, 667px and up) */
+@media (min-width: 667px) {
+	.profileImage {margin-left: 12rem;}
+	.profileImage__image { left: 9.3rem;}
+}
+/* Small devices (landscape phones, 736px and up) */
+@media (min-width: 736px) {
+	.profileImage {margin-left: 13.5rem;}
+	.profileImage__image { left: 11.3rem;}
 }
 
 /* Small devices (portrait & landscape phones, 576px and up) */
